@@ -1,0 +1,21 @@
+
+.vjs-chapter-button {
+ // visibility: hidden;
+}
+.vjs-chapter-thumbnail-button {
+  visibility: visible !important;
+  cursor: pointer;
+}
+
+.vjs-chapter-picker-thumbnail-menu {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  z-index: 9999;
+  bottom: 30%;
+  .vjs-menu-content {
+    display: flex;
+    flex-direction: row;
+  }
+}

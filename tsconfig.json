@@ -1,0 +1,18 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "target": "es2016",                                 
+    "rootDir": "./src",
+    "typeRoots": ["node_modules/@types", "./@types"],
+    /* JavaScript Support */
+    "allowJs": true,                             
+    "checkJs": true,                                  /* Enable error reporting in type-checked JavaScript files. */
+    "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
+    "outDir": "build",                                   /* Specify an output folder for all emitted files. */
+    "removeComments": true,                           /* Disable emitting comments. */
+    "esModuleInterop": true,                       
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
